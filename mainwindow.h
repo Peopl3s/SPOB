@@ -22,7 +22,7 @@ public slots:
     void replyFinished(QNetworkReply*);
     void P(QString&);
 private:
-    const QString token="7a37323501cf4c7ecd2c82bc46a6f83fc17dd44ed9544e320cd67890b2adfa612864f6726fc721e181fdf";
+    const QString token="token";
     QNetworkAccessManager *manager;
     QNetworkReply *reply;
     Ui::MainWindow *ui;
